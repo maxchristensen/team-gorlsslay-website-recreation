@@ -12,6 +12,70 @@ font-family: 'Tenor Sans', sans-serif;
     box-sizing: border-box;
 }
 
+.top{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin:4vh;
+    border: 5px solid black;
+}
+
+.hero-image-container{
+    width: 60vw;
+    border: 5px solid black;
+}
+
+
+.hero-text-container{
+    position: relative;
+    flex-direction: column;
+    width: 40vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.top-posts, .latest-posts, .featured-posts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+   
+}
+
+.post-container{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90vw;
+    border: 5px solid black;
+    height: fit-content;
+    justify-content: center;
+    align-items:start;
+}
+
+.post{
+    position: relative;
+    height: 30vw;
+    width: 30%;
+    
+    margin: 1vw;
+}
+
+.post.larger{
+    width: 41vw;
+}
+
+.post-info{
+    position: relative;
+    margin-top: 1vh;
+    
+}
+
+.post-image{
+    height: 50%;
+    border: 5px solid black;
+}
+
 .footer {
     display: flex;
     padding: 90px 30px;
