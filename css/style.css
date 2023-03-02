@@ -6,12 +6,11 @@ font-family: 'Source Serif Pro', serif;
 font-family: 'Tenor Sans', sans-serif;
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 .top{
     display: flex;
@@ -75,4 +74,39 @@ font-family: 'Tenor Sans', sans-serif;
 .post-image{
     height: 50%;
     border: 5px solid black;
+}
+
+.footer {
+    display: flex;
+    padding: 90px 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #141414;
+}
+
+.container-footer {
+    width: 100%;
+    max-width: 1200px;
+}
+
+h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+}
+
+.footerLogo {
+    margin-right: 15px;
+    margin-bottom: 2px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.footer-copyright {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #666;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
