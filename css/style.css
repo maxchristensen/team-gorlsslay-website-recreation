@@ -43,14 +43,17 @@ font-family: 'Tenor Sans', sans-serif;
     margin-right: 15px;
     margin-left: 15px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.navigation {
+.nav-logo{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 15px;
     margin-left: 15px;
-    display: grid;
+    display: flex;
 }
 
 #noiceland-logo {
@@ -59,9 +62,26 @@ font-family: 'Tenor Sans', sans-serif;
 }
 
 .nav-links {
-    align-items: end;
+    justify-content: space-between;
+    display: flex;
+    width: 20vw;
+    height: 5vh;
+    margin-top: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+.link:hover {
+    border-bottom: 5px solid black;
+    transition: all 0.5s ease;
+}
 
 /* Footer */
 
