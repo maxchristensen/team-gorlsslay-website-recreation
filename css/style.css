@@ -59,8 +59,12 @@
 }
 
 .post-info{
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin-top: 1vh;
+    justify-content:space-around ;
+    
     
 }
 
