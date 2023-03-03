@@ -34,6 +34,10 @@ font-family: 'Tenor Sans', sans-serif;
     margin-right: 5vw;
 }
 
+img{
+    position: relative;
+    width: 100%;
+}
 
 /* Navigation */
 
