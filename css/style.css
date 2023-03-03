@@ -17,12 +17,12 @@ font-family: 'Tenor Sans', sans-serif;
     justify-content: center;
     flex-direction: row;
     margin:4vh;
-    border: 5px solid black;
+    
 }
 
 .hero-image-container{
     width: 60vw;
-    border: 5px solid black;
+    
 }
 
 
@@ -47,7 +47,7 @@ font-family: 'Tenor Sans', sans-serif;
     flex-wrap: wrap;
     flex-direction: row;
     width: 90vw;
-    border: 5px solid black;
+  
     height: fit-content;
     justify-content: center;
     align-items:start;
@@ -71,9 +71,46 @@ font-family: 'Tenor Sans', sans-serif;
     
 }
 
+.catergory-title{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 10px;
+
+}
+
+.post-title{
+    font-family: 'Tenor Sans', sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+.post-title.top{
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.post-text{
+    font-family: 'Source Serif Pro', serif;
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.author-title{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
 .post-image{
     height: 50%;
-    border: 5px solid black;
+   
 }
 
 .footer {
@@ -110,3 +147,63 @@ h4 {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+
+/* ------ RESPONSIVENESS ------  */
+/* PHONE */
+@media screen and (max-width: 320px) {
+
+    .post{
+        position: relative;
+        height: 30vw;
+        width: 100%;
+        
+        margin: 1vw;
+    }
+
+    .post.larger{
+        width: 100%;
+    }
+    
+
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+    .top{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:4vh;
+      
+    }
+    
+    .hero-image-container{
+        width: 100%;
+       
+    }
+    .post{
+        position: relative;
+        height: 30vw;
+        width: 100%;
+        
+        margin: 1vw;
+    }
+
+    .post.larger{
+        width: 100%;
+    }
+    .hero-text-container{
+        width: 100%;
+        
+        margin: 0;
+    }
+    
+
+}
+
+/* LAPTOP */
+@media screen and (min-width: 1024px) {
+
+}
+
