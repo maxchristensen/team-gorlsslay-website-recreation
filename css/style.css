@@ -34,47 +34,36 @@ font-family: 'Tenor Sans', sans-serif;
     margin-right: 5vw;
 }
 
-.top-posts, .latest-posts, .featured-posts{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2vh;
-   
+
+/* Navigation */
+
+.navigation-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 20px;
 }
 
-.post-container{
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 90vw;
-    border: 5px solid black;
-    height: fit-content;
-    justify-content: center;
-    align-items:start;
+.navigation {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: grid;
 }
 
-.post{
-    position: relative;
-    height: 30vw;
-    width: 30%;
-    
-    margin: 1vw;
+#noiceland-logo {
+    width: 200px;
+    height: 25px;
 }
 
-.post.larger{
-    width: 41vw;
+.nav-links {
+    align-items: end;
 }
 
-.post-info{
-    position: relative;
-    margin-top: 1vh;
-    
-}
 
-.post-image{
-    height: 50%;
-    border: 5px solid black;
-}
+/* Footer */
 
 .footer {
     display: flex;
@@ -89,11 +78,6 @@ font-family: 'Tenor Sans', sans-serif;
 .container-footer {
     width: 100%;
     max-width: 1200px;
-}
-
-h4 {
-    font-family: 'Libre Franklin', sans-serif;
-    color: #fff;
 }
 
 .top-section {
@@ -203,4 +187,56 @@ h4 {
 
 .submit-button:hover {
     cursor: pointer;
+}
+
+/* Headings */
+
+h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+}
+
+
+/* Posts */
+
+.post-container{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90vw;
+    border: 5px solid black;
+    height: fit-content;
+    justify-content: center;
+    align-items:start;
+}
+
+.post{
+    position: relative;
+    height: 30vw;
+    width: 30%;
+    
+    margin: 1vw;
+}
+
+.post.larger{
+    width: 41vw;
+}
+
+.post-info{
+    position: relative;
+    margin-top: 1vh;
+    
+}
+
+.post-image{
+    height: 50%;
+    border: 5px solid black;
+}
+
+.top-posts, .latest-posts, .featured-posts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+   
 }
