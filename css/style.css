@@ -34,24 +34,77 @@ font-family: 'Tenor Sans', sans-serif;
     margin-right: 5vw;
 }
 
-.top-posts, .latest-posts, .featured-posts{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2vh;
-   
+
+/* Navigation */
+
+.navigation-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 20px;
 }
 
-.post-container{
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 90vw;
-    border: 5px solid black;
-    height: fit-content;
-    justify-content: center;
-    align-items:start;
+.navigation {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: grid;
 }
+
+#noiceland-logo {
+    width: 200px;
+    height: 25px;
+}
+
+.nav-links {
+    align-items: end;
+}
+
+
+/* Footer */
+
+.footerLogo {
+    margin-right: 15px;
+    margin-bottom: 2px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.footer-copyright {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #666;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: flex;
+    padding: 90px 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #141414;
+}
+
+.container-footer {
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+/* Headings */
+
+h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+}
+
+
+/* Posts */
 
 .post{
     position: relative;
@@ -76,37 +129,21 @@ font-family: 'Tenor Sans', sans-serif;
     border: 5px solid black;
 }
 
-.footer {
+.top-posts, .latest-posts, .featured-posts{
     display: flex;
-    padding: 90px 30px;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    background-color: #141414;
+    margin-bottom: 2vh;
+   
 }
 
-.container-footer {
-    width: 100%;
-    max-width: 1200px;
-}
-
-h4 {
-    font-family: 'Libre Franklin', sans-serif;
-    color: #fff;
-}
-
-.footerLogo {
-    margin-right: 15px;
-    margin-bottom: 2px;
-    max-width: 100%;
-    display: inline-block;
-}
-
-.footer-copyright {
-    font-family: 'Libre Franklin', sans-serif;
-    color: #666;
-    font-size: 10px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+.post-container{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90vw;
+    border: 5px solid black;
+    height: fit-content;
+    justify-content: center;
+    align-items:start;
 }
